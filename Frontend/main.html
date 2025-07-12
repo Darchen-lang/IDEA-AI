@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdeAI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="detective.png" type="image/x-icon">
+</head>
+
+<body>
+     <nav>
+
+        <a href="https://www.instagram.com/_s.a.m.a.k.s.h_/?next=%2F" target="_blank"><img src="instagram.png"
+                alt="instagram" width="20px" height="20px"></a>
+        <a href="https://www.linkedin.com/in/samaksh-choudhary-78147334b/" target="_blank"><img src="linkedin.png"
+                alt="linkedin" width="20px" height="20px"></a>
+    </nav>
+    <div class="heading-wrapper">
+
+        <h1 class="heading">
+            IDEAI
+        </h1>
+    </div>
+  
+   
+    <div class="container">
+
+        <H1>Welcome to Idea AI</H1>
+        <p class="description">Share your idea, and let our AI evaluate its potential. By analyzing key factors like
+            demand, market trends,
+            and execution feasibility, we’ll provide you with a smart feasibility score and practical feedback.</p>
+        <div class="buttons"><input type="radio" id="social" name="type" value="social">
+            <label for="social">social</label>
+            <input type="radio" id="Tech" name="type" value="Tech">
+            <label for="Tech">Tech</label>
+            <input type="radio" id="Health" name="type" value="Health">
+            <label for="Health"> Health</label>
+            <input type="radio" id="Education" name="type" value="Education">
+            <label for="Education">Education</label>
+            <input type="radio" id="Business" name="type" value="Business">
+            <label for="Business">Business</label>
+            <input type="radio" id="other" name="type" value="other">
+            <label for="other">other</label>
+
+        </div><div id="suggestionBox" class="suggestions"></div><br>
+
+        <form id="ideaForm"class="box">
+            <label for="idea"></label>
+            <textarea name="idea" id="idea" placeholder="Tell us about your Idea..."></textarea>
+            <button type="submit" id="getScoreButton">Get Feasibility Score</button>
+        </form>
+        <div class="score-output" id="scoreOutput">
+
+        </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
